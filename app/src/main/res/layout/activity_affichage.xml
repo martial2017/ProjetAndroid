@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="isge.bf.org.projet.Affichage">
+
+    <TextView
+        android:id="@+id/nomRecup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/prenomRecup"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="Prénom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="52dp" />
+
+    <TextView
+        android:id="@+id/adresseRecup"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="Adresse"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="97dp" />
+
+    <TextView
+        android:id="@+id/ageRecup"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="148dp" />
+</android.support.constraint.ConstraintLayout>
