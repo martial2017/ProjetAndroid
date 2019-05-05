@@ -83,7 +83,7 @@ public class RecordPerson extends AppCompatActivity implements View.OnClickListe
 
         startActivity(intentV);
 
-
+    
         //finish();
         //startActivityForResult(intentV, GET_CODE);
         //startActivity(intentV);
